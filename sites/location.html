@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device--width, initial--scale=1">
+
+        <title>#Facultate.</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+
+            function darklight(){
+                var element = document.body;
+                element.classlist.toggle("darkmodeoff")
+            }
+
+            function profileHandler(value) {
+                window.location.assign(`${value}.html`);
+            }
+
+            function urlHandler(value) {                               
+                window.location.assign(`${value}`);
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="about.html" title="about" style="float: left; padding: 7px;" target="_blank"><img alt="GOD." src="logo.png" width="50px"></a>
+            <a href="index.html">Home</a>
+            <a href="1.html" target="_blank">Quiz</a>
+        </div>
+
+        <h1 style="text-align: center;">Buna alegere!</h1>
+
+        <h3><br><br><br><br><br>Intrebarea 2:</h3>
+
+        <p>Care e cea mai apropiata locatie?</p>
+
+        <form action="#">
+            <label for="location">location:</label>
+            <select id="url" onchange="profileHandler(this.value)">
+                <option value="">Locatie...</option>
+                <option value="Arad">Arad</option>
+                <option value="Alba Iulia">Alba Iulia</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Buzau">Buzau</option>
+                <option value="Bacau">Bacau</option>
+                <option value="Baia Mare">Baia Mare</option>
+                <option value="Balti">Balti</option>
+                <option value="Blaj">Blaj</option>
+                <option value="Brasov">Brasov</option>
+                <option value="Braila">Braila</option>
+                <option value="Bucuresti">Bucuresti</option>
+                <option value="Cahul">Cahul</option>
+                <option value="Campulung-Muscel"Campulung-Muscel></option>
+                <option value="Chisinau">Chisinau</option>
+                <option value="Cluj-Napoca">Cluj-Napoca</option>
+                <option value="Constanta">Constanta</option>
+                <option value="Craiova">Craiova</option>
+                <option value="Focsani">Focsani</option>
+                <option value="Galati">Galati</option>
+                <option value="Iasi">Iasi</option>
+                <option value="Lugoj">Lugoj</option>
+                <option value="Oradea">Oradea</option>
+                <option value="Petrosani">Petrosani</option>
+                <option value="Pitesti">Pitesti</option>
+                <option value="Ploiesti">Ploiesti</option>
+                <option value="Râmnicu-Vâlcea">Râmnicu-Vâlcea</option>
+                <option value="Resita">Resita</option>
+                <option value="Sibiu">Sibiu</option>
+                <option value="Slobozia">Slobozia</option>
+                <option value="Suceava">Suceava</option>
+                <option value="Targoviste">Targoviste</option>
+                <option value="Targu-Jiu">Targu-Jiu</option>
+                <option value="Targu Mures">Targu Mures</option>
+                <option value="Timisoara">Timisoara</option>
+            </select>
+        </form>
+
+    </body>
+
+</html>

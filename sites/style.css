@@ -1,0 +1,166 @@
+body{
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+
+.darkmodeoff{
+    padding: 25px;
+    background-color: white;
+    color: black;
+}
+
+.caca{
+    color: purple
+}
+
+.pipi{
+    color: red;
+}
+
+.hihihiha{
+    color:black;
+    background-color: black;
+}
+       
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: purple;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+}
+
+.button1:hover {
+    background-color: purple;
+    color: white;
+}
+
+.button2 {
+    background-color: grey; 
+    color: black; 
+    border: 2px solid purple;
+}
+
+.button2:hover {
+    background-color: red;
+    color: white;
+}
+
+* {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+.prompt {
+	display: block;
+	font-size: 20px;
+}
+
+.btn {
+	margin: 0 20px 0 20px;
+}
+
+.btn-strongly-agree {
+	color: #89d298;
+	font-weight: bold;
+}
+
+.btn-strongly-agree.active,
+.btn-strongly-agree:active,
+.btn-strongly-agree:focus,
+.btn-strongly-agree:active:focus,
+.btn-strongly-agree.active:focus,
+.btn-strongly-agree:hover
+ {
+	background-color: #89d298;
+}
+
+.btn-agree {
+	color: #89d298;
+}
+
+.btn-agree.active,
+.btn-agree:active,
+.btn-agree:focus,
+.btn-agree:active:focus,
+.btn-agree.active:focus,
+.btn-agree:hover {
+	background-color: rgba(137, 210, 152, 0.5);
+}
+
+.btn-disagree {
+	color: #e28181;
+}
+
+.btn-disagree.active,
+.btn-disagree:active,
+.btn-disagree:focus,
+.btn-disagree:active:focus,
+.btn-disagree.active:focus,
+.btn-disagree:hover {
+	background-color: rgba(226, 129, 129, 0.5);
+}
+
+.btn-strongly-disagree {
+	color: #e28181;
+	font-weight: bold;
+}
+
+.btn-strongly-disagree.active,
+.btn-strongly-disagree:active,
+.btn-strongly-disagree:focus,
+.btn-strongly-disagree:active:focus,
+.btn-strongly-disagree.active:focus,
+.btn-strongly-disagree:hover {
+	background-color: #e28181;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.results {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}

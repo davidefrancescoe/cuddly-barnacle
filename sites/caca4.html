@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="style.css">
+
+        <meta name="viewport" content="width=device--width, initial--scale=1">
+
+        <script>
+
+            var questionArray = [
+                ["q1</option>"a1</option>"a2</option>"a3"]
+                ["q1</option>"a1</option>"a2</option>"a3"]
+                ["q1</option>"a1</option>"a2</option>"a3"]
+                ["q1</option>"a1</option>"a2</option>"a3"]
+                ["q1</option>"a1</option>"a2</option>"a3"]
+                ["q1</option>"a1</option>"a2</option>"a3"]
+            ];
+
+            for(var i = 0, questionArray.length; i++){
+                document.write("<span class='question'>" + questionArray[i][0] + "</span><br/><br/>");
+            }
+
+            for(var x = 1; x < 4; x++){
+                document.write("<input type='radio' class='answer' name='answer' value='" + questionArray[i][x] + "'>" + questionArray[i][x] + "<br/><br/>");
+            }
+
+            var characterAnswerArray = [
+                ["0, 1, 4"],
+                ["2, 3, 6"],
+                ["1, 3, 0"],
+                ["2, 4, 5"]
+                ["0, 0, 1"]
+            ];
+
+            var inputs = document.getElementByTagName('input');
+            for(var i = 0; i < inputs.length; i++){
+                inputs[i].addEventListener('click', check);
+            }
+
+            function check(){
+                userAnswers = [];
+                var c = 0;
+                for(var i = 0; i < inputs.length; i++){
+                    if(inputs[i].checked) {
+                        userAnswers.push(i%3);
+                        c++;
+                    }
+                }
+                if(c==questionArray.length) rate();
+            }
+
+            function rate(){
+                for(var i = 0; i < userAnswers.length; j++){
+                    for(var j = 0; j < characterAnswer.length; j++){
+                        vharacterAnswer[j][4] = 0;
+                        for(var x = 0; x < 4; x++){
+                            if(userAnswers[i] == characterAnswer[j][x])
+                                characterAnswer[j][4]++;
+                        }
+                    }
+                }
+                answer();
+            }
+
+            function answer(){
+                var a = 0, t;
+                for(var j = 0; j < characterAnswer.length; j++){
+                    if(characterAnswer[j][4] >a){
+                        a = characterAnswer[j][4];
+                        t = characterAnswer[j][3];
+                    }
+                }
+                alert(t);
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="about.html" title="about" style="float: left; padding: 7px;" target="_blank"><img alt="GOD." src="logo.png" width="50px"></a>
+            <a href="index.html">Home</a>
+            <a href="1.html" target="_blank">Quiz</a>
+        </div>
+
+        <button onclick="check()">caca</button>
+
+    </body>
+
+</html>
+
+
+
+Introverts are tricky to understand, since it’s so easy for us to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+<br><br>\
+I love this explanation of an introvert’s need to be alone:\n\
+<br><br>\
+For introverts, to be alone with our thoughts is as restorative as sleeping, as nourishing as eating.\n\n\
+<br><br>\
+Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one--on--one time, needing time alone to recharge, and being upset by unexpected changes or last--minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
+		';
+
+
+
+
+        On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
+        <br><br>\
+        I like how this extrovert explains the way he/she gains energy from being around other people:\
+        <br><br>\
+        When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
+
+
+
+
+
+
+
+
+
+
+
+        Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+        <br><br>\
+        So let’s look at how an ambivert compares.\
+        <br><br>\
+        Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
+
+
+
+
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF--8">
+  <meta name="viewport" content="width=device--width, initial--scale=1.0">
+  <title>AdonisJS -- A fully featured web framework for Node.js</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      background--color: #F7F8FA;
+      font--family: 'Poppins', sans--serif;
+      height: 100vh;
+      color: #46444c;
+      position: relative;
+  }
+
+    body:before {
+      content: '';
+      background: #5A45FF;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+      position: absolute;
+  }
+
+    * {
+      margin: 0;
+      padding: 0;
+  }
+
+    a {
+      color: #5A45FF;
+      text--decoration: none;
+  }
+
+    main {
+      max--width: 620px;
+      margin: auto;
+      height: 100vh;
+      padding: 0 30px;
+      align--items: center;
+      display: flex;
+      justify--content: center;
+  }
+
+   title {
+      font--size: 50px;
+      line--height: 50px;
+      margin--bottom: 10px;
+      color: #17161A;
+  }
+
+   subtitle {
+      font--size: 26px;
+      margin--bottom: 40px;
+  }
+
+    p {
+      margin--bottom: 20px;
+  }
+
+    main ul {
+      list--style: none;
+  }
+
+    main li {
+      margin--bottom: 5px;
+      position: relative;
+      padding--left: 25px;
+  }
+
+    main li:before {
+      content: '—';
+      position: absolute;
+      left: 0;
+  }
+
+    main code {
+      font--size: 16px;
+      background: #e6e2ff;
+  }
+  </style>
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="about.html" title="about" style="float: left; padding: 7px;" target="_blank"><img alt="GOD." src="logo.png" width="50px"></a>
+    <a href="index.html">Home</a>
+    <a href="1.html" target="_blank">Quiz</a>
+</div>
+
+  <main>
+    <div>
+      <h1 class="title">It Works! </h1>
+      <p class="subtitle">
+        Congratulations, you have just created your first AdonisJS app.
+      </p>
+
+      <ul>
+        <li>
+          The route for this page is defined inside <code>start/routes.ts</code>file
+        </li>
+
+        <li>
+          You can update this page by editing <code>resources/views/welcome.edge</code>file
+        </li>
+
+        <li>
+          If you run into problems, you can reach us on <a href="https://discord.gg/vDcEjq6?">Discord</a>or the <a href="https://forum.adonisjs.com/">Forum</a>.
+        </li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
+
+
+
+
+
+<select id="profile" required autofocus>
+    <option value="">Profil...</option>
+    <option value="1">Arte</option>
+    <option value="2">Arhitectura</option>
+    <option value="3">Business</option>
+    <option value="4">IT</option>
+    <option value="5">Inginerie</option>
+    <option value="6">Medicina</option>
+    <option value="7">Științe Umaniste</option>
+    <option value="8">Științe Juridice</option>
+    <option value="9">Științe ale Naturii</option>
+    <option value="10">Științe Economice</option>
+    <option value="11">Teologie</option>
+    <option value="12">Sport</option>
+    <option value="13">Construcții</option>
+</select>
+
+
+
+<input type="submit" value="Submit">

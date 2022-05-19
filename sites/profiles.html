@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device--width, initial--scale=1">
+
+        <title>2</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+
+            function darklight(){
+                var element = document.body;
+                element.classlist.toggle("darkmodeoff")
+            }
+
+            function profileHandler(value) {
+                window.location.assign(`${value}.html`);
+            }
+
+            function urlHandler(value) {                               
+                window.location.assign(`${value}`);
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="about.html" title="about" style="float: left; padding: 7px;" target="_blank"><img alt="GOD." src="logo.png" width="50px"></a>
+            <a href="index.html">Home</a>
+            <a href="1.html" target="_blank">Quiz</a>
+        </div>
+
+        <h1 style="text-align: center;">Buna alegere!</h1>
+
+        <h3><br><br><br><br><br>Intrebarea 2:</h3>
+
+        <p>Pe ce profil ai vrea sa intri?</p>
+
+        <form action="#">
+            <label for="profile">profile:</label>
+            <select id="url" onchange="profileHandler(this.value)">
+                <option value="">Profil...</option>
+                <option value="arte">Arte</option>
+                <option value="arhi">Arhitectura</option>
+                <option value="bus">Business</option>
+                <option value="IT">IT</option>
+                <option value="ing">Inginerie</option>
+                <option value="medi">Medicina</option>
+                <option value="stiuma">Științe Umaniste</option>
+                <option value="stijur">Științe Juridice</option>
+                <option value="stinat">Științe ale Naturii</option>
+                <option value="stieco">Științe Economice</option>
+                <option value="teo">Teologie</option>
+                <option value="sport">Sport</option>
+                <option value="constr">Construcții</option>
+            </select>
+        </form>
+
+    </body>

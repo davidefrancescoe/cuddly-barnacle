@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta name="viewport" content="width=device--width, initial--scale=1">
+
+        <title>1</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script>
+
+            function darklight() {
+                var element = document.body;
+                element.classList.toggle("darkmodeoff");
+          }
+
+        </script>
+
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="about.html" title="about" style="float: left; padding: 7px;" target="_blank"><img alt="GOD." src="logo.png" width="50px"></a>
+            <a href="index.html">Home</a>
+            <a href="1.html" target="_blank">Quiz</a>
+        </div>
+
+        <h1 style="text-align: center;">Sa incepem!</h1>
+
+        <p><br><br><br><br>Va trebui sa raspunzi la niste intrebari, sau poti cauta tu facultatea dorita din sectiunea <a href="fcl.html">facultati</a>.</p>
+     
+        <h3>Prima intrebare:</h3>
+     
+        <p>Conteaza daca facultatea este relativ aproape de tine?</p>
+
+        <form method="get" action="/home/dookie/sites/location.html">
+            <button type="submit" class="button button2">DA.</button>   
+        </form>
+
+        <form method="get" action="/home/dookie/sites/profiles.html">
+            <button type="submit" class="button button2">NU.</button>
+        </form>
+
+        <p style="text-align: right;"><button class="button button1" style="text-align: right; position:fixed;bottom: 3px;right: 3px;" onclick="darklight()" title="toggles between light mode and dark mode">Light mode</button></p>
+
+    </body>
+
+</html>

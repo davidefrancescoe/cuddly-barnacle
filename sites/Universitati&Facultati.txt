@@ -1,0 +1,219 @@
+Arad:
+-Universitatea
+        -Facultatea de:
+                --
+
+
+Alba Iulia:
+
+
+Alexandria:
+
+
+Buzau:
+
+
+Bacau:
+
+
+Baia Mare:
+
+
+Balti:
+
+
+Blaj:
+
+
+Brasov:
+
+
+Braila:
+
+
+Bucuresti:
+
+
+Cahul:
+
+
+Campulung-Muscel:
+
+
+Chisinau:
+
+
+Cluj-Napoca:
+
+
+Constanta:
+
+
+Craiova:
+
+
+Focsani:
+-Universitatea "Bioterra":
+        -Facultatea de: 
+                --Management Agroturistic
+                --INGINERIA PRODUSELOR ALIMENTARE 
+                --CONTROLUL SI EXPERTIZA PRODUSELOR ALIMENTARE:
+                        ~SPECIALIZAREA CEPA
+                        ~SPECIALIZAREA PROTECTIA CONSUMATORULUI SI A MEDIULUI 
+                --DREPT 
+                --ASISTENTA MEDICALA GENERALA 
+                --INFORMATICA 
+
+
+Galati:
+-Universitatea "Dunarea de Jos":
+        -Facultatea de:
+                --Inginerie
+                --Arhitectura Navala
+                --Stiinta si Ingineria Alimentelor
+                --Automatică, Calculatoare, Inginerie Electrică și Electronică
+                --Educație Fizică și Sport 
+                --Litere
+                --Științe și Mediu
+                --Istorie, Filosofie și Teologie 
+                --Inginerie și Agronomie din Brăila
+                --Economie și Administrarea Afacerilor 
+                --Drept și Științe Administrative
+                --Medicină și Farmacie 
+                --Arte
+                --Transfrontalieră
+
+
+Iasi:
+-Universitatea „Alexandru Ioan Cuza”:
+        -Facultatea de:
+                --Biologie
+                --Chimie
+                --Drept
+                --Educaţie Fizică şi Sport
+                --Filosofie şi Ştiinţe Social-Politice
+                --Fizica
+                --Geografie şi Geologie
+                --Informatica
+                --Istore
+                --Litere
+                --Matematica
+                --Psihologie şi Ştiinţe ale Educaţiei
+                --Teologie Ortodoxă
+                --Teologie Romano-Catolică
+                --Interpretare, Compozitie si Studii Muzicale Teoretice
+                --Arte Vizuale şi Design
+                --Teatru
+                --Pregătirea Personalului Didactic (DPPD) 
+
+
+-Universitatea de Medicina si Farmacie „GR.T.POPA”:
+        -Facultatea de:
+                --Medicina  
+                --Medicina Dentara
+                --Farmacie
+                --Bioinginerie Medicala
+
+-Universitatea de Ştiinţe Agricole şi Medicină Veterinară „Ion Ionescu de la Brad”:
+        -Facultatea de:
+                --Agricultură
+                --Horticultură
+                --Zootehnie,
+                --Medicină Veterinară
+
+-Universitatea Tehnica „Gheorghe Asachi” : 
+        -Facultatea de:
+                --Arhitectură „G.M. Cantacuzino”
+                --Inginerie Chimică şi Protecţia Mediului
+                --Construcţii şi Instalaţii
+                --Construcţii de Maşini şi Management Industrial
+                --Electronică, Telecomunicaţii şi Tehnologia Informaţiei
+                --Inginerie Electrică, Energetică şi Informatică Aplicată
+                --Hidrotehnică, Geodezie şi Ingineria Mediului
+                --Ştiinţa şi Ingineria Materialelor
+                --Design Industrial si Managementul Afacerilor
+
+-Universitatea „Petre Andrei”: 
+        -Facultatea de:
+                --Psihologie, Stiintele Educatiei si Asistenţă Socială
+                --Ştiinţe Politice si Administrative
+                --Economie
+                --Drept
+
+-Universitatea Apollonia :
+        -Facultatea de:
+                --Medicină Dentară
+                --Ştiinţe ale Comunicării
+
+
+Lugoj:
+-Universitatea Europena Drăgan:
+        -Facultatea de:
+                --Stiinte Economice
+                --Drept
+
+
+Oradea:
+
+
+Petrosani:
+        -Facultatea de:
+                --Inginerie Mecanica si Electrica
+                --Mine
+                --Stiinte
+                --Stiinte Socio-Umane
+                --Formare Continuă şi Pregătirea Personalului Didactic
+
+
+Pitesti:
+
+
+Ploiesti:
+
+
+Râmnicu-Vâlcea:
+
+
+Resita:
+
+
+Sibiu:
+
+
+Slobozia:
+
+
+Suceava:
+
+
+Targoviste:
+
+
+Targu-Jiu:
+
+
+Targu Mures:
+
+
+Timisoara:
+
+
+
+
+
+
+
+
+  <option value="1">Arte</option>
+  <option value="2">Arhitectura</option>
+  <option value="3">Business</option>
+  <option value="4">IT</option>
+  <option value="5">Inginerie</option>
+  <option value="6">Medicina</option>
+  <option value="7">Științe Umaniste</option>
+  <option value="8">Științe Juridice</option>
+  <option value="9">Științe ale Naturii</option>
+  <option value="10">Științe Economice</option>
+  <option value="11">Teologie</option>
+  <option value="12">Sport</option>
+  <option value="13">Construcții</option>
